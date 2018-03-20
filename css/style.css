@@ -1,19 +1,29 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	background-color: AlieBlue;
+	background-color: #2274A5;
 }
 
 
 .headerMenu {
-	background-color: CornflowerBlue;
-	height: 100%;
-	border-bottom: 0px;
-	padding-left: auto;
-	padding right: auto;
-	padding-top: auto;
-	width: 100%;
+	background-color: #2274A5;
+	padding-left: 70px;
+	padding right: 70px;
+	padding-top: 120px;
 	text-align: left;
+	font-family: 'IBM Plex Mono', bold;
+}
+
+
+#name {
+	font-color: #131B23;
+	font-size:20px;
+	padding-bottom: 10px;
+}
+
+#ab {
+	font-color: #816C61;
+	padding-left: 10px;
 }
 
 #wrapper {
