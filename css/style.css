@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	background-color: black;
+	font-family: 'IBM Plex Mono', sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+h1 {
+	font-color: #131B23;
+	font-size:40px;
+	padding-bottom: 10px;
+	padding-left: 70px;
+	padding right: 70px;
+	text-align: left;
+}
+
+h2 {
+	font-size:22px;
+	padding-left: 70px;
+	padding right: 70px;
+	text-align: left;
+}
+
+p {
+	text-indent: 30px;
+	padding-left: 70px;
+}
+
+header:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 15px;
+	position: relative;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a:before {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 200ms;
+}
+
+nav a:hover:before {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+@keyframes color-animation {
+	0% {
+		background: white;
+	}
+	50% {
+		background: black;
+	}
+	100% {
+		background: white;
+	}
+}
+
+.box {
+	margin-left: 71px;
+	width: 12px;
+	height: 20px;
+	background-color: white;
+	float: left;
+	background-clip: content-box;
+	position: relative;
+	clear: both;
+	content: '';
+	animation: color-animation 1s infinite linear alternate;
+}
+
+.bar {
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-top: 400px;
+}
+
