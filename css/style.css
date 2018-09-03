@@ -1,13 +1,21 @@
 body {
 	margin: 0;
+<<<<<<< HEAD
 	background-color: black;
 	font-color: white;
+=======
+	background-color: white;
+>>>>>>> 2a19f43305af055705725df5958f4023508e3c65
 	font-family: 'IBM Plex Mono', sans-serif;
 	font-weight: 400;
 	overflow: hidden;
 }
 
 h1 {
+<<<<<<< HEAD
+=======
+	font-color: #131B23;
+>>>>>>> 2a19f43305af055705725df5958f4023508e3c65
 	font-size:40px;
 	padding-bottom: 10px;
 	padding-left: 70px;
@@ -97,7 +105,11 @@ nav a:hover:before {
 	margin-left: 71px;
 	width: 12px;
 	height: 20px;
+<<<<<<< HEAD
 	background-color: white;
+=======
+	background-color: black;
+>>>>>>> 2a19f43305af055705725df5958f4023508e3c65
 	float: left;
 	background-clip: content-box;
 	position: relative;
