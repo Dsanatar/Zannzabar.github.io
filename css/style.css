@@ -4,28 +4,26 @@ body {
 	background-color: black;
 	font-color: white;
 =======
-	background-color: white;
 >>>>>>> 2a19f43305af055705725df5958f4023508e3c65
 	font-family: 'IBM Plex Mono', sans-serif;
 	font-weight: 400;
-	overflow: hidden;
+	overflow: scroll;
+	padding-left: 70px;
 }
 
 h1 {
 <<<<<<< HEAD
 =======
-	font-color: #131B23;
+	font-color: white;
 >>>>>>> 2a19f43305af055705725df5958f4023508e3c65
 	font-size:40px;
 	padding-bottom: 10px;
-	padding-left: 70px;
 	padding right: 70px;
 	text-align: left;
 }
 
 h2 {
 	font-size:22px;
-	padding-left: 70px;
 	padding right: 70px;
 	text-align: left;
 }
@@ -124,5 +122,24 @@ nav a:hover:before {
 	border-color: black;
 	border-width: 1px;
 	margin-top: 400px;
+}
+
+::-webkit-scrollbar {
+width: 8px;
+height: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #f5f5f5;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #ccc;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #999;  
 }
 
