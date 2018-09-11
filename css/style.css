@@ -28,6 +28,10 @@ p {
 	padding-left: 70px;
 }
 
+a {
+	color: white;
+}
+
 header:after {
 	content: '';
 	display: table;
