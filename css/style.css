@@ -24,8 +24,10 @@ h2 {
 }
 
 p {
+	font-size: 26px;
 	text-indent: 30px;
-	padding-left: 70px;
+	padding-left: 10px;
+	padding-right: 50px;
 }
 
 a {
