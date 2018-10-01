@@ -34,6 +34,10 @@ a {
 	color: white;
 }
 
+li {
+	padding-right: 15px;
+}
+
 header:after {
 	content: '';
 	display: table;
